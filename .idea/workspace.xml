@@ -4,24 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d9cace4-47ab-4ed2-bea9-75356f0d200b" name="Changes" comment="Homework6 - Selenide project separated from the others">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/OnlinerNavigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/CatalogBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/CatalogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/OnlinerHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/tests/CatalogBarLinksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/tests/ComponentsProductsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/tests/ComputerNetworksCategoriesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testSuite.xml" afterDir="false" />
+    <list default="true" id="7d9cace4-47ab-4ed2-bea9-75356f0d200b" name="Changes" comment="Homework7 - API tests + Grid">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/CapabilityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/ChromeDriverCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverCreatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/EdgeDriverCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/FirefoxDriverCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/OptionsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/SelenideWebDriverDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/WebDriverCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/endpoints/OnlinerEndpoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/framework/PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/model/Sushivesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/service/SushiveslaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/utils/GetRequestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/utils/ResponseBodyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/endpoints.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/api_tests/SearchingForSushiveslaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/api_tests/SearchingForSushiveslaWithParamsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/api_test_suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/local_ui_suite_different_browsers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/remote_ui_suite_different_browsers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/OnlinerNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/ui/OnlinerNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/tests/CatalogBarLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/CatalogBarLinksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/tests/ComponentsProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComponentsProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/tests/ComputerNetworksCategoriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComputerNetworksCategoriesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/smoke_ui_suite_groups.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,17 +61,100 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/ProjectsAcademy/AutomationExamples/ParallelExecutionProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Maven.smoke tests">
+}]]></component>
+  <component name="RunManager" selected="Maven.remote chrome">
+    <configuration name="edge" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="-Dtest=CatalogBarLinksTest" />
+                <option value="install" />
+                <option value="-DdriverType=edge" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="firefox" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="-Dtest=CatalogBarLinksTest" />
+                <option value="install" />
+                <option value="-DdriverType=chrome" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="remote chrome" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="smoke tests" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -84,19 +181,46 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="CatalogBarLinksTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.onliner.ui_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.it_academy.onliner.ui_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.ui_tests.CatalogBarLinksTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CatalogBarLinksTest.testCatalogBarHasExactLinksNames" type="TestNG" temporary="true">
       <module name="Selenide" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.it_academy.onliner.tests.*" />
+          <option name="PATTERN" value="com.it_academy.onliner.ui_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.it_academy.onliner.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.tests.CatalogBarLinksTest" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.ui_tests.CatalogBarLinksTest" />
       <option name="METHOD_NAME" value="testCatalogBarHasExactLinksNames" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -116,12 +240,12 @@
       <module name="Selenide" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.it_academy.onliner.tests.*" />
+          <option name="PATTERN" value="com.it_academy.onliner.ui_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.it_academy.onliner.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.tests.ComponentsProductsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.ui_tests.ComponentsProductsTest" />
       <option name="METHOD_NAME" value="testComponentsCategoryHasProductsWithNamesCountAndPrice" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -130,13 +254,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchFieldTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.it_academy.onliner.api_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.it_academy.onliner.api_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.it_academy.onliner.api_tests.SearchFieldTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Maven.smoke tests" />
+      <item itemvalue="Maven.remote chrome" />
+      <item itemvalue="Maven.firefox" />
+      <item itemvalue="Maven.edge" />
+      <item itemvalue="TestNG.SearchFieldTest" />
+      <item itemvalue="TestNG.CatalogBarLinksTest" />
       <item itemvalue="TestNG.CatalogBarLinksTest.testCatalogBarHasExactLinksNames" />
       <item itemvalue="TestNG.ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesCountAndPrice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CatalogBarLinksTest" />
+        <item itemvalue="TestNG.SearchFieldTest" />
         <item itemvalue="TestNG.CatalogBarLinksTest.testCatalogBarHasExactLinksNames" />
         <item itemvalue="TestNG.ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesCountAndPrice" />
       </list>
@@ -151,10 +309,19 @@
       <option name="presentableId" value="Default" />
       <updated>1668776731697</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework6 - Selenide project separated from the others">
+      <created>1668860826091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668860826091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework6 - Selenide project separated from the others" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework6 - Selenide project separated from the others" />
+    <MESSAGE value="Homework7 - API tests + Grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework7 - API tests + Grid" />
   </component>
 </project>

@@ -14,7 +14,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <log4j.version>2.17.1</log4j.version>
         <cucumber.version>7.8.1</cucumber.version>
-        <test.suite.path>${pom.basedir}/src/test/resources/testSuite.xml</test.suite.path>
+        <test.suite.path>${pom.basedir}/src/test/resources/remote_ui_suite_different_browsers.xml</test.suite.path>
+        <defaultBrowser>chrome</defaultBrowser>
+        <gridURL>http://10.20.6.153:4444</gridURL>
     </properties>
     <build>
         <plugins>
@@ -23,6 +25,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M6</version>
                 <configuration>
+                    <systemPropertyVariables>
+                        <driverType>${defaultBrowser}</driverType>
+                        <remoteServer>${gridURL}</remoteServer>
+                    </systemPropertyVariables>
                     <suiteXmlFiles>${test.suite.path}</suiteXmlFiles>
                     <includes>
                         <include>**/*TestRunner.java</include>
@@ -43,6 +49,16 @@
     </build>
     <dependencies>
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.4</version>
+        </dependency>
+        <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.6.1</version>
@@ -60,20 +76,30 @@
             <version>6.7.2</version>
         </dependency>
         <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>${cucumber.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-testng</artifactId>
-            <version>${cucumber.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
             <version>${log4j.version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.13.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.24</version>
+        <scope>provided</scope>
+    </dependency>
     </dependencies>
-
 </project>

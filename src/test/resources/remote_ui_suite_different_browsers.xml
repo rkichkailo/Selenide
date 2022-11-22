@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UI Suite on different browsers" parallel="tests" thread-count="3">
+    <test name="Parallel Test on chrome">
+        <parameter name="server" value="remote"/>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.it_academy.onliner.ui_tests.CatalogBarLinksTest"/>
+            <class name="com.it_academy.onliner.ui_tests.ComponentsProductsTest"/>
+            <class name="com.it_academy.onliner.ui_tests.ComputerNetworksCategoriesTest"/>
+        </classes>
+    </test>
+</suite>
