@@ -4,37 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d9cace4-47ab-4ed2-bea9-75356f0d200b" name="Changes" comment="Homework7 - API tests + Grid">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/CapabilityFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/ChromeDriverCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverCreatorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/EdgeDriverCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/FirefoxDriverCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/OptionsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/SelenideWebDriverDiscovery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/WebDriverCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/endpoints/OnlinerEndpoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/framework/PropertiesReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/model/Sushivesla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/service/SushiveslaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/utils/GetRequestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/rest_api/utils/ResponseBodyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/endpoints.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/api_tests/SearchingForSushiveslaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/api_tests/SearchingForSushiveslaWithParamsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/api_test_suite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/local_ui_suite_different_browsers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/remote_ui_suite_different_browsers.xml" afterDir="false" />
+    <list default="true" id="7d9cace4-47ab-4ed2-bea9-75356f0d200b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/remote_ui_all_browsers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/OnlinerNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/ui/OnlinerNavigation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/tests/CatalogBarLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/CatalogBarLinksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/tests/ComponentsProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComponentsProductsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/tests/ComputerNetworksCategoriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComputerNetworksCategoriesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/smoke_ui_suite_groups.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/CapabilityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/CapabilityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/ChromeDriverCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverCreatorFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/EdgeDriverCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/FirefoxDriverCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/OptionsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/OptionsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/SelenideWebDriverDiscovery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/WebDriverCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/CatalogBarLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/CatalogBarLinksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComponentsProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComponentsProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComputerNetworksCategoriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComputerNetworksCategoriesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/local_ui_suite_different_browsers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/local_ui_all_browsers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/remote_ui_suite_different_browsers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/remote_ui.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/smoke_ui_suite_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/smoke_ui_suite_groups.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,24 +45,27 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2HinN7Lw2uBSFuN2j8GY7sRopod" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/ProjectsAcademy/AutomationExamples/ParallelExecutionProject",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ProjectsAcademy/AutomationExamples/ParallelExecutionProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Maven.remote chrome">
+}</component>
+  <component name="RunManager" selected="Maven.smoke tests">
     <configuration name="edge" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -115,7 +108,8 @@
                 <option value="clean" />
                 <option value="-Dtest=CatalogBarLinksTest" />
                 <option value="install" />
-                <option value="-DdriverType=chrome" />
+                <option value="-Dserver=remote" />
+                <option value="-DdriverType=firefox" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -316,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668860826091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework7 - API tests + Grid">
+      <created>1669153641397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669153641397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

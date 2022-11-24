@@ -1,8 +1,8 @@
-package com.it_academy.onliner.framework;
+package com.it_academy.onliner.framework.driver;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import static com.it_academy.onliner.framework.OptionsManager.*;
+import static com.it_academy.onliner.framework.driver.OptionsManager.*;
 
 public class CapabilityFactory {
     public static DesiredCapabilities capabilities;

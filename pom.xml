@@ -14,9 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <log4j.version>2.17.1</log4j.version>
         <cucumber.version>7.8.1</cucumber.version>
-        <test.suite.path>${pom.basedir}/src/test/resources/remote_ui_suite_different_browsers.xml</test.suite.path>
-        <defaultBrowser>chrome</defaultBrowser>
-        <gridURL>http://10.20.6.153:4444</gridURL>
+        <test.suite.path>${pom.basedir}/src/test/resources/remote_ui_all_browsers.xml</test.suite.path>
+        <gridURL>http://192.168.100.8:4444</gridURL>
     </properties>
     <build>
         <plugins>
@@ -26,13 +25,9 @@
                 <version>3.0.0-M6</version>
                 <configuration>
                     <systemPropertyVariables>
-                        <driverType>${defaultBrowser}</driverType>
                         <remoteServer>${gridURL}</remoteServer>
                     </systemPropertyVariables>
                     <suiteXmlFiles>${test.suite.path}</suiteXmlFiles>
-                    <includes>
-                        <include>**/*TestRunner.java</include>
-                    </includes>
                 </configuration>
             </plugin>
             <plugin>

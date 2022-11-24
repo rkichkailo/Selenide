@@ -1,6 +1,6 @@
 package com.it_academy.onliner.ui_tests;
 
-import com.it_academy.onliner.framework.DriverManager;
+import com.it_academy.onliner.framework.driver.DriverManager;
 import com.it_academy.onliner.page_object.Header;
 import org.testng.annotations.*;
 
@@ -26,7 +26,5 @@ public class CatalogBarLinksTest {
         new Header()
                 .clickOnCatalogLink()
                 .assertCatalogBarLinksTextMatchExpected(EXPECTED_CATALOG_BAR_LINKS);
-
-        System.out.println(System.getProperty("driverType"));
     }
 }

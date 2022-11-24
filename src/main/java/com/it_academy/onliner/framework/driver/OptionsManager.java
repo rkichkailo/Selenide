@@ -1,4 +1,4 @@
-package com.it_academy.onliner.framework;
+package com.it_academy.onliner.framework.driver;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -13,7 +13,8 @@ public class OptionsManager {
         options.addArguments("--start-maximized");
         options.addArguments("--ignore-certificate-errors");
         options.addArguments("--disable-popup-blocking");
-        return capabilities.merge(options);
+        capabilities.merge(options);
+        return capabilities;
     }
 
     public static DesiredCapabilities getFirefoxDesiredCapabilities() {
@@ -25,7 +26,7 @@ public class OptionsManager {
 
     public static DesiredCapabilities getEdgeDesiredCapabilities() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("edge");
+        capabilities.setBrowserName("MicrosoftEdge");
         capabilities.setPlatform(Platform.WIN10);
         return capabilities;
     }
