@@ -1,5 +1,7 @@
 package com.it_academy.onliner.framework.driver;
 
+import io.qameta.allure.Step;
+
 import java.util.Objects;
 
 import static com.it_academy.onliner.framework.driver.DriverFactory.selectBrowserForDriver;
@@ -9,6 +11,7 @@ public class DriverManager {
 
     private static final String DEFAULT_SERVER = "local";
 
+    @Step
     public static synchronized void initDriver(String server, String driverType){
         selectServer(Objects.requireNonNullElse(server, DEFAULT_SERVER), driverType);
     }

@@ -8,11 +8,10 @@ public class CapabilityFactory {
     public static DesiredCapabilities capabilities;
 
     public static synchronized DesiredCapabilities getCapabilities(String browser) {
-        switch (browser) {
+        return switch (browser) {
             case "firefox" -> capabilities = getFirefoxDesiredCapabilities();
             case "edge" -> capabilities = getEdgeDesiredCapabilities();
             default -> capabilities = getChromeDesiredCapabilities();
-        }
-        return capabilities;
+        };
     }
 }

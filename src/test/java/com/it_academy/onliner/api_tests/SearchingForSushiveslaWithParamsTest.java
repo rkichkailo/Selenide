@@ -1,6 +1,7 @@
 package com.it_academy.onliner.api_tests;
 
 import com.google.common.collect.ImmutableMap;
+import com.it_academy.onliner.BaseTest;
 import org.testng.annotations.Test;
 
 import java.util.Map;
@@ -10,8 +11,8 @@ import static com.it_academy.onliner.navigation.rest_api.utils.GetRequestUtils.m
 import static org.hamcrest.Matchers.equalToIgnoringCase;
 import static org.hamcrest.Matchers.everyItem;
 
-public class SearchingForSushiveslaWithParamsTest {
-    @Test
+public class SearchingForSushiveslaWithParamsTest extends BaseTest {
+    @Test(groups = {"api"})
     public void testSushiveslaEndpointWithParams() {
 
         Map<String, Object> filterParams = ImmutableMap.of(

@@ -2,6 +2,7 @@ package com.it_academy.onliner.page_object;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.it_academy.onliner.framework.BasePage;
+import io.qameta.allure.Step;
 
 import java.util.List;
 
@@ -14,24 +15,26 @@ import static java.time.Duration.ofSeconds;
 
 public class CatalogPage extends BasePage {
 
-    public static final String CATALOG_BAR_LINKS =
-            "//*[@class = 'catalog-navigation-classifier__item-title-wrapper']";
+    public static final ElementsCollection CATALOG_BAR_LINKS =
+            $$x("//*[@class = 'catalog-navigation-classifier__item-title-wrapper']");
 
+    @Step
     public CatalogBlock selectCatalogBlock(String link){
-        $$x(CATALOG_BAR_LINKS)
+       CATALOG_BAR_LINKS
                 .findBy(text(link))
-                .shouldBe(and("clickable", visible, enabled))
+                .shouldBe(and("clickable", visible, enabled), ofSeconds(10))
                 .click();
         return new CatalogBlock();
     }
 
     public ElementsCollection getCatalogBarLinks(){
-        return $$x(CATALOG_BAR_LINKS)
+        return CATALOG_BAR_LINKS
                 .shouldHave(sizeGreaterThan(0), ofSeconds(10));
     }
 
+    @Step
     public void assertCatalogBarLinksTextMatchExpected(List<String> expectedLinksText){
         getCatalogBarLinks()
-                .should(exactTexts(expectedLinksText));
+                .should(exactTexts(expectedLinksText), ofSeconds(10));
     }
 }

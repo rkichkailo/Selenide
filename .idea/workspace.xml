@@ -4,27 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d9cace4-47ab-4ed2-bea9-75356f0d200b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/remote_ui_all_browsers.xml" afterDir="false" />
+    <list default="true" id="7d9cace4-47ab-4ed2-bea9-75356f0d200b" name="Changes" comment="allure report added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/listener/AllureListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/utils/ScreenshotUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/CapabilityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/CapabilityFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/ChromeDriverCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverCreatorFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/DriverManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/EdgeDriverCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/FirefoxDriverCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/OptionsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/OptionsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/SelenideWebDriverDiscovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/WebDriverCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/CapabilityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/CapabilityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/OptionsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/driver/OptionsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/ui/OnlinerNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/navigation/ui/OnlinerNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/CatalogBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/CatalogBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/it_academy/onliner/page_object/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/api_tests/SearchingForSushiveslaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/api_tests/SearchingForSushiveslaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/api_tests/SearchingForSushiveslaWithParamsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/api_tests/SearchingForSushiveslaWithParamsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/CatalogBarLinksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/CatalogBarLinksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComponentsProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComponentsProductsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComputerNetworksCategoriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/it_academy/onliner/ui_tests/ComputerNetworksCategoriesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/local_ui_suite_different_browsers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/local_ui_all_browsers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/remote_ui_suite_different_browsers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/remote_ui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/smoke_ui_suite_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/smoke_ui_suite_groups.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ProjectsAcademy/AutomationExamples/ParallelExecutionProject&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Auto-lessons/SelenideProject",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager" selected="Maven.smoke tests">
     <configuration name="edge" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -108,8 +114,8 @@
                 <option value="clean" />
                 <option value="-Dtest=CatalogBarLinksTest" />
                 <option value="install" />
-                <option value="-Dserver=remote" />
-                <option value="-DdriverType=firefox" />
+                <option value="-Dserver=local" />
+                <option value="-Dbrowser=chrome" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -162,6 +168,7 @@
               <list>
                 <option value="clean" />
                 <option value="test" />
+                <option value="-Dgroups=ui" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -287,10 +294,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesCountAndPrice" />
         <item itemvalue="TestNG.CatalogBarLinksTest" />
         <item itemvalue="TestNG.SearchFieldTest" />
         <item itemvalue="TestNG.CatalogBarLinksTest.testCatalogBarHasExactLinksNames" />
-        <item itemvalue="TestNG.ComponentsProductsTest.testComponentsCategoryHasProductsWithNamesCountAndPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -320,9 +327,32 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework6 - Selenide project separated from the others" />
     <MESSAGE value="Homework7 - API tests + Grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework7 - API tests + Grid" />
+    <MESSAGE value="allure report added" />
+    <option name="LAST_COMMIT_MESSAGE" value="allure report added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/it_academy/onliner/framework/BasePage.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
