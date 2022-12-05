@@ -12,6 +12,7 @@ public class ScreenshotUtils {
         try {
             File screenshot = Screenshots.takeScreenShotAsFile();
             assert screenshot != null;
+            System.out.println("YES");
             Allure.addAttachment("screenshot", openInputStream(screenshot));
         } catch (IOException e) {
             throw new RuntimeException(e);

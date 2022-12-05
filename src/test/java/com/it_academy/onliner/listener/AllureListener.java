@@ -1,5 +1,6 @@
 package com.it_academy.onliner.listener;
 
+import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
@@ -15,5 +16,10 @@ public class AllureListener implements ITestListener {
     @Override
     public void onTestSkipped(ITestResult result) {
         takeScreenshotAndAttachToAllureReport();
+    }
+
+    @Override
+    public void onStart(ITestContext context) {
+        System.out.println("Test start");
     }
 }

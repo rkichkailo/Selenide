@@ -11,7 +11,7 @@ import org.testng.annotations.Listeners;
 public class BaseTest {
 
     @BeforeClass
-    public void init(){
+    public void setupListeners(){
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
                 .screenshots(true)
                 .savePageSource(true));

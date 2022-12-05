@@ -2,6 +2,7 @@ package com.it_academy.onliner.api_tests;
 
 import com.google.common.collect.ImmutableMap;
 import com.it_academy.onliner.BaseTest;
+import io.qameta.allure.Description;
 import org.testng.annotations.Test;
 
 import java.util.Map;
@@ -13,6 +14,7 @@ import static org.hamcrest.Matchers.everyItem;
 
 public class SearchingForSushiveslaWithParamsTest extends BaseTest {
     @Test(groups = {"api"})
+    @Description("Get filtered objects and check that all contain name_prefix in the response (\"Роллы\")")
     public void testSushiveslaEndpointWithParams() {
 
         Map<String, Object> filterParams = ImmutableMap.of(
